@@ -1,0 +1,134 @@
+[
+  {
+      "id": 1,
+      "name": "Virat Kohli",
+      "country": "India",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm medium",
+      "price": 2000000,
+      "image": "https://thedailyguardian.com/wp-content/uploads/2024/04/Virat-Kohli_TDG.jpg"
+  },
+  {
+      "id": 2,
+      "name": "Ben Stokes",
+      "country": "England",
+      "all_rounder": true,
+      "rating": "Rating",
+      "batting_style": "Left-Hand Bat",
+      "bowling_style": "Right-arm fast-medium",
+      "price": 1800000,
+      "image": "https://static.cricbuzz.com/a/img/v1/1080x608/i1/c248264/ben-stokes-struck-a-match-winning-52-in-the-t20-world-cup-final.jpg"
+  },
+  {
+      "id": 3,
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm offbreak",
+      "price": 1700000,
+      "image": "https://crictoday.com/wp-content/uploads/2023/04/Untitled-design.jpg"
+  },
+  {
+      "id": 4,
+      "name": "Steve Smith",
+      "country": "Australia",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm legbreak",
+      "price": 2100000,
+      "image": "https://api.bdcrictime.com/steve-smith-07_03_2022.jpg"
+  },
+  {
+      "id": 5,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm offbreak",
+      "price": 1650000,
+      "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2024-02/GettyImages-2014197776%281%29.jpg?h=fecbceb7&itok=NbQrmXnM"
+  },
+  {
+      "id": 6,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm fast",
+      "price": 1500000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2ZFtIjXNlmGt_ww6sKu3-AaxsPhKO6AEeIXN5kNnf_NeDiTD4nOYPAe8tsZq4m_DHXk&usqp=CAU"
+  },
+  {
+      "id": 7,
+      "name": "AB de Villiers",
+      "country": "South Africa",
+      "all_rounder": true,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm medium",
+      "price": 2200000,
+      "image": "https://images.indianexpress.com/2019/12/ab-de-villiers-1200.jpg"
+  },
+  {
+      "id": 8,
+      "name": "Joe Root",
+      "country": "England",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Right-Hand Bat",
+      "bowling_style": "Right-arm offbreak",
+      "price": 1600000,
+      "image": "https://static.independent.co.uk/2024/02/23/14/23-c94ed482861f4a229a9497f5184b8d41.jpg"
+  },
+  {
+      "id": 9,
+      "name": "David Warner",
+      "country": "Australia",
+      "all_rounder": false,
+      "rating": "Rating",
+      "batting_style": "Left-Hand Bat",
+      "bowling_style": "Right-arm legbreak",
+      "price": 1550000,
+      "image": "https://yespunjab.com/wp-content/uploads/2024/07/David-Warner-aus.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "all_rounder": true,
+    "rating": "Rating",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox",
+    "price": 1500000,
+    "image": "https://media.licdn.com/dms/image/v2/C5612AQFuUpkb6GcPfQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1640263858940?e=2147483647&v=beta&t=3fTiL3inL6eY4IeALlPApFXu9JemnKWCV8XjNyIrEvA"
+},
+{
+    "id": 11,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "all_rounder": false,
+    "rating": "Rating",
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 1300000,
+    "image": "https://www.aljazeera.com/wp-content/uploads/2023/07/AP23062396044745-1688651875.jpg?resize=770%2C513&quality=80"
+},
+{
+    "id": 12,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "all_rounder": false,
+    "rating": "Rating",
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm offbreak",
+    "price": 1250000,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1SCJLz-0ChEtmBfPh9_6LlWEvN4LPeyCs0Qh-yBI96g-LNqCJ5fu6WXW4TDkq3tONf1c&usqp=CAU"
+}
+]

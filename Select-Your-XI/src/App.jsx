@@ -55,20 +55,12 @@ function App() {
   // players handel
   const handelIsActive = status => {
     if(status == "Available"){
-      const selectedPlayers = document.getElementById('selected-players');
-      selectedPlayers.classList.add('hidden');
-      const availablePlayers = document.getElementById('available-players');
-      availablePlayers.classList.remove('hidden');
       const addMore = document.getElementById('add-more');
       addMore.classList.add('hidden')
       setIsActive({player: true, status: 'Available'})
     }
     else{
       setIsActive({player: false, status: 'Selected'})
-      const availablePlayers = document.getElementById('available-players');
-      availablePlayers.classList.add('hidden');
-      const selectedPlayers = document.getElementById('selected-players');
-      selectedPlayers.classList.remove('hidden');
       const addMore = document.getElementById('add-more');
       addMore.classList.remove('hidden')
     }
@@ -104,6 +96,7 @@ function App() {
       ></Aplayers>
 
       <Splayers
+      isActive={isActive}
       choosePlayers={choosePlayers}
       handelDelete={handelDelete}
       addPlayer={addPlayer}

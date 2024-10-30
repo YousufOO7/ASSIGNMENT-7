@@ -26,7 +26,7 @@ const Aplayers = ({handelIsActive, isActive, handelChoose, choosePlayers}) => {
                 </div>
             </div>
             {/* fetch data load */}
-           <div id='available-players' className='grid grid-cols-1 md:grid-cols-3 mb-32'>
+           <div id='available-players' className={`grid grid-cols-1 md:grid-cols-3 mb-32 ${isActive.player?"": "hidden"}`}>
            {
                 availablePlayers.map((player, idx) => <Player 
                 key={idx} 

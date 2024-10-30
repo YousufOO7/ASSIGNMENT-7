@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import './Splayer.css'
 
-const Splayer = ({splayer, handelDelete}) => {
+const Splayer = ({splayer, handelDelete, isActive}) => {
     const {image, name,  batting_style, price, id} = splayer;
     return (
        <div className='pb-4'>
-         <div className="bg-base-100 w-full shadow-xl ">
+         <div className={`bg-base-100 w-full shadow-xl ${isActive.splayer? "hidden": ""}`}>
   <div className="flex justify-between items-center p-4">
     <div className=' flex gap-2'>
         <img className='image-container rounded-3xl' src={image} alt="" />
@@ -29,7 +29,8 @@ const Splayer = ({splayer, handelDelete}) => {
 
 Splayer.propTypes = {
     splayer: PropTypes,
-    handelDelete: PropTypes.func
+    handelDelete: PropTypes.func,
+    isActive: PropTypes
 };
 
 export default Splayer;

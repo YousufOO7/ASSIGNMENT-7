@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 import Splayer from '../Splayer/Splayer';
 
-const Splayers = ({choosePlayers, handelDelete, addPlayer}) => {
+const Splayers = ({choosePlayers, handelDelete, addPlayer, isActive}) => {
     return (
         <div id='selected-players' className='w-11/12 mx-auto py-5 mb-40'>
             {
                 choosePlayers.map((splayer, idx) => <Splayer 
                 key={idx} 
                 splayer={splayer}
+                isActive={isActive}
                 handelDelete={handelDelete}
                 ></Splayer>)
             }
@@ -23,7 +24,8 @@ const Splayers = ({choosePlayers, handelDelete, addPlayer}) => {
 Splayers.propTypes = {
     choosePlayers: PropTypes,
     handelDelete: PropTypes.func,
-    addPlayer: PropTypes.func
+    addPlayer: PropTypes.func,
+    isActive: PropTypes.object
 };
 
 export default Splayers;
